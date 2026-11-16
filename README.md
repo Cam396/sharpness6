@@ -29,6 +29,7 @@ Each version has its own jar. Pick the one matching your Minecraft version.
 The config file is created automatically on startup with vanilla baseline values. Per-enchantment caps (e.g. `sharpness`, `protection`, `efficiency`) default to vanilla levels; raise them to allow higher enchantments. `smite`/`bane_of_arthropods` inherit `sharpness` when `null`; the protection family inherits `protection`.
 
 - **`unbreakingArmorFix`** (`false` by default): replaces vanilla's armor Unbreaking formula (`60% + 40%/(level + 1)`, which weakens above level 1) with `level/(level + 2)` so high Unbreaking levels scale asymptotically.
+- Optional anvil-cost settings (`bypassTooExpensive`, `anvilMaxCost`) are documented in the separate anvil branch.
 - **`customMaxLevels`** (`{}` by default): map of enchantment ID to max level for modded/datapack enchantments.
 
 Example:

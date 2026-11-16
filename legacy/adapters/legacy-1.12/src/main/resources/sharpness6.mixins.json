@@ -6,7 +6,8 @@
   "mixins": [
     "EnchantmentBaseMixin",
     "EnchantmentSubclassesMixin",
-    "UnbreakingMixin"
+    "UnbreakingMixin",
+    "AnvilScreenHandlerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

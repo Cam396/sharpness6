@@ -4,7 +4,9 @@
   "package": "mastery3.sharpness6.mixin",
   "compatibilityLevel": "${mixin_compat}",
   "mixins": [
+    "ForgingScreenHandlerAccessor",
     "RegistryLoaderMixin",
+    "AnvilScreenHandlerMixin",
     "EnchantmentLevelSuffixMixin"
   ],
   "injectors": {

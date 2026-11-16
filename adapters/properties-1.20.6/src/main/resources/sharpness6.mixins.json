@@ -6,6 +6,8 @@
   "mixins": [
     "EnchantmentMixin",
     "UnbreakingEnchantmentMixin",
+    "ForgingScreenHandlerAccessor",
+    "AnvilScreenHandlerMixin",
     "EnchantmentLevelSuffixMixin"
   ],
   "injectors": {
